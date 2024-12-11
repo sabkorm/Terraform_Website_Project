@@ -3,10 +3,10 @@
 This project’s goal was creating a static website that is stored on a AWS S3 bucket, which is then distributed through the AWS Cloudfront content delivery network. Both the S3 bucket and the Cloudfront service are created and configured using Terraform. Then, user pushes their website content, including html files, media files, etc, onto a GitHub repository, which is then uploaded to the S3 bucket using GitHub Actions, and distributed through the CDN service.
 
 ## Project Component
-    • GitHub
-    • Terraform
-    • AWS S3
-    • AWS Cloudfront
+• GitHub
+• Terraform
+• AWS S3
+• AWS Cloudfront
 
 ### GitHub
 In this project, a GitHub repository and GitHub Actions are used for easier continuous integration. The user pushes the files for their website into a GitHub repository, and the relevant files are uploaded automatically through GitHub actions into the AWS S3 bucket storage.
