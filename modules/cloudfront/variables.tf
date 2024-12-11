@@ -8,7 +8,7 @@ variable "aws_cloudfront_origin_access_control_name" {
 variable "aws_cloudfront_distribution_acm_certificate_arn" {
   type        = string
   description = "acm certificate arn"
-  default     = "arn:aws:cloudfront::471112654829:distribution/E3HPPVA653IW2G"
+  default     = "arn:aws:cloudfront::471112654829:distribution/EH2TZUINTQV8S"
 }
 
 variable "s3_bucket_website_index_document" {
